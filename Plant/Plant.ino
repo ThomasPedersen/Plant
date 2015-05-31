@@ -9,7 +9,7 @@ void setup() {
 
 void loop() {
   int light = map(analogRead(PIN_PHOTORESISTOR), 0, 1024, 0, 100);
-  int moisture = analogRead(PIN_MOISTURE;
+  int moisture = analogRead(PIN_MOISTURE);
   
   Serial.print(light);
   Serial.print(",");
